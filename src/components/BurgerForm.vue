@@ -1,6 +1,7 @@
 <template>
     <main id="mainBurger">
         <h2>Monte o seu Burger</h2>
+        <MessageNotify :msg="msg" v-show="msg"/>
         <form>
             <div>
                 <label class="title" for="nome">Nome do cliente:</label>
@@ -30,16 +31,20 @@
                 </article>
             </div>
             <div>
-                <input @click="createBurger" type="submit" class="submit-btn" value="Criar meu Burger">
+                <input :disabled="!(nome && pao && carne && opcionais.length > 0)" @click="createBurger" type="submit" class="submit-btn" value="Criar meu Burger">
             </div>
         </form>
     </main>
 </template>
 
 <script>
+import MessageNotify from './MessageNotify.vue'
 
 export default {
   name: 'BurgerForm',
+  components: {
+    MessageNotify
+  },
   data () {
     return {
       paes: null,
@@ -74,17 +79,23 @@ export default {
 
       const dataJson = JSON.stringify(data)
 
-      await fetch('http://localhost:3000/burgers', {
+      const req = await fetch('http://localhost:3000/burgers', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: dataJson
       })
 
-      // colocar uma msg de sistema de criado
+      const res = await req.json()
+
+      this.msg = `Pedido N${res.id} realizado com sucesso`
+      setTimeout(() => {
+        this.msg = ''
+      }, 3000)
+
       this.nome = ''
       this.carne = ''
       this.pao = ''
-      this.opcionais = ''
+      this.opcionais = []
     }
   },
   mounted () {
@@ -150,6 +161,10 @@ export default {
         padding: 5px 10px;
         width: 400px;
         cursor: pointer;
+    }
+
+    input:disabled {
+        cursor: not-allowed
     }
 
     .submit-btn {
