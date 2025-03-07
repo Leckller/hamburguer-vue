@@ -1,13 +1,21 @@
 <template>
   <div id="home">
-    <h1>Monte o seu Burguer:</h1>
+    <BannerBar />
+    <BurgerForm />
   </div>
 </template>
 
 <script>
 
+import BannerBar from '@/components/BannerBar.vue'
+import BurgerForm from '@/components/BurgerForm.vue'
+
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components: {
+    BannerBar,
+    BurgerForm
+  }
 }
 
 </script>
@@ -19,8 +27,6 @@ export default {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
   }
 
 </style>
