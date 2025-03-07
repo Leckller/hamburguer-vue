@@ -33,13 +33,13 @@ export default {
   name: 'OrderContainer',
   emits: ['cancelar'],
   props: {
-    id: Number,
-    pao: String,
-    nome: String,
-    carne: String,
+    id: String,
+    pao: { id: Number, tipo: String },
+    nome: { id: Number, tipo: String },
+    carne: { id: Number, tipo: String },
     actualStatus: String,
-    statusList: [],
-    opcionais: []
+    statusList: [{ id: Number, tipo: String }],
+    opcionais: [String]
   }
 }
 
