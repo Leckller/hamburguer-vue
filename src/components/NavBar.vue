@@ -1,7 +1,7 @@
 <template>
   <nav id="nav">
     <router-link to="/">
-      <img :src="logo" :alt="alt">
+      <img :src="logo_src" :alt="alt_nav">
     </router-link>
     <div>
       <router-link to="/">Home</router-link>
@@ -14,7 +14,7 @@
 
 export default {
   name: 'NavBar',
-  props: ['logo', 'alt'],
+  props: ['logo_src', 'alt_nav'],
   data () {
     return {
 
@@ -27,7 +27,31 @@ export default {
 <style scoped>
 
   #nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+  }
 
+  #nav div {
+    display: flex;
+    gap: 16px;
+  }
+
+  a {
+    color: rgb(255, 208, 0);
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    filter: brightness(1.5);
+  }
+
+  img {
+    width: 50px;
   }
 
 </style>

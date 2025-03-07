@@ -1,6 +1,8 @@
 <template>
-  <HeaderBar />
-  <router-view/>
+  <HeaderBar :alt_nav="alt_nav" :logo_src="logo_src" />
+  <div id="main">
+    <router-view/>
+  </div>
   <FooterBar />
 </template>
 
@@ -8,6 +10,7 @@
 
 import FooterBar from './components/FooterBar.vue'
 import HeaderBar from './components/HeaderBar.vue'
+import logo from './assets/logo.png'
 
 export default {
   components: {
@@ -16,7 +19,7 @@ export default {
   },
   data () {
     return {
-      logo_src: '',
+      logo_src: logo,
       alt_nav: ''
     }
   }
@@ -31,6 +34,10 @@ export default {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+  }
+
+  #main {
+    min-height: 70vh;
   }
 
 </style>
