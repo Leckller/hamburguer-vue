@@ -27,6 +27,7 @@ export default {
         background-color: rgb(15, 12, 0);
         justify-content: space-between;
         min-height: 15vh;
+        font-size: x-large;
     }
 
 </style>
