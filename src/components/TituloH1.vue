@@ -1,6 +1,6 @@
 <template>
     <header>
-      <h1>Olá Vue!</h1>
+      <h1 @click="$emit('clickSecreto')">Olá Vue!</h1>
       <p>{{ frase }}</p>
       <p>Para mais conteúdos de qualidade duvidosa -> <a :href="link" target="_blank">github</a></p>
     </header>
@@ -16,6 +16,7 @@ export default {
       link: 'https://github.com/Leckller'
     }
   },
+  emits: ['clickSecreto'],
   created () {
     setTimeout(() => {
       this.frase = 'Um fim terrivel.'

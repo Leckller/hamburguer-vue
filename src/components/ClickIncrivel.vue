@@ -2,7 +2,7 @@
     <section>
         <h1>Ei ei ei!</h1>
         <button @click="ToggleEvent">
-            {{ text }}
+            {{ loading ? propResponse : propQuestion }}
         </button>
     </section>
 </template>
@@ -12,18 +12,19 @@
 export default {
   data () {
     return {
-      text: 'Clica aqui meu jovem!',
       loading: false
     }
+  },
+  props: {
+    propQuestion: String,
+    propResponse: String
   },
   methods: {
     ToggleEvent (e) {
       e.preventDefault()
       if (this.loading) return
-      this.text = 'Você é uma pessoa incrivel!'
       this.loading = true
       setTimeout(() => {
-        this.text = 'Clica aqui meu jovem!'
         this.loading = false
       }, 1000)
     }

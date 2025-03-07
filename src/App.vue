@@ -1,7 +1,9 @@
 <template>
-  <TituloH1/>
+  <TituloH1 @click-secreto="clickSecreto"/>
   <CondicionamentoFisico />
-  <ClickIncrivel />
+  <ClickIncrivel prop-question="Clica aqui!!!" prop-response="Você é uma pessoa incrível!!!" />
+  <ClickIncrivel prop-question="Clica aqui!!!" prop-response="Você é uma pessoa muuuito legal!!!" />
+  <ClickIncrivel :prop-question="bobo" :prop-response="boboClica" />
   <ElementosLegais />
   <AwesomeForm />
 </template>
@@ -16,6 +18,17 @@ import AwesomeForm from './components/AwesomeForm.vue'
 
 export default {
   name: 'app',
+  data () {
+    return {
+      bobo: 'Clica aqui bobinho!',
+      boboClica: 'N aconteceu nada!! hahaha!! bobinho!'
+    }
+  },
+  methods: {
+    clickSecreto () {
+      console.log('É... Você realmente tem um clique poderoso.')
+    }
+  },
   components: {
     TituloH1,
     CondicionamentoFisico,
