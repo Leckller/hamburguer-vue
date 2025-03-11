@@ -1,5 +1,5 @@
 *** Variables ***
-&{UI}
+&{Home}
 ...         input_nome=//input[@id="nome"]
 ...         input_pao=//select[@id="pao"]
 ...         input_carne=//select[@id="carne"]
