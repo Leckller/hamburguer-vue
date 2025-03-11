@@ -13,6 +13,7 @@ ${video}                    //video[@class="video-stream html5-main-video"]
 
 *** Test Cases ***
 TC-01: Busca, acessa e da um play em um vídeo do youtube
+    [Tags]    regressivo
     Dado que eu acesso o site do youtube
     Quando digito o nome da música
     E clico no botão buscar
