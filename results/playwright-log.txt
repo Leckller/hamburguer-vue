@@ -1,0 +1,16 @@
+{"level":30,"time":"2025-03-10T17:22:40.952Z","pid":3876,"hostname":"3CRJ001863N","msg":"Listening on 60388"}
+(node:3876) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-10T17:22:41.313Z","pid":3876,"hostname":"3CRJ001863N","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-10T17:22:41.798Z","pid":3876,"hostname":"3CRJ001863N","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-10T17:22:41.800Z","pid":3876,"hostname":"3CRJ001863N","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-10T17:22:41.799Z","pid":3876,"hostname":"3CRJ001863N","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-10T17:22:41.813Z","pid":3876,"hostname":"3CRJ001863N","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-10T17:22:41.814Z","pid":3876,"hostname":"3CRJ001863N","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-10T17:22:41.822Z","pid":3876,"hostname":"3CRJ001863N","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-10T17:22:41.822Z","pid":3876,"hostname":"3CRJ001863N","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-10T17:22:41.841Z","pid":3876,"hostname":"3CRJ001863N","msg":"Changed active context"}
+{"level":30,"time":"2025-03-10T17:22:42.119Z","pid":3876,"hostname":"3CRJ001863N","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-10T17:22:42.119Z","pid":3876,"hostname":"3CRJ001863N","msg":"Changed active page"}
+{"level":30,"time":"2025-03-10T17:22:43.724Z","pid":3876,"hostname":"3CRJ001863N","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-10T17:28:07.049Z","pid":3876,"hostname":"3CRJ001863N","msg":"Removed page=c422de15-d8aa-4360-bbdd-6c069b437d52 from context=f07bd2e0-04b3-45db-a0f0-f041ee086df6 page stack"}
