@@ -29,7 +29,7 @@ TC_UI-02: Testa se o pedido apareceu na parte página /orders
 
     Verifica se os ingredientes são os mesmos do pedido
 
-    Verifica se o status é Solicitado
+    Verifica se o status é igual a "Solicitado"
 
     Fecha a hamburgueria
 
