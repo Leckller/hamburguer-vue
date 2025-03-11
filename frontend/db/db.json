@@ -79,68 +79,11 @@
   ],
   "burgers": [
     {
-      "id": "b039",
-      "nome": "\"Teste\"",
-      "carne": "{\"id\": 1, \"tipo\": Maminha}",
-      "pao": "{\"id\": 1, \"tipo\": Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    },
-    {
-      "id": "6251",
-      "nome": "\"Teste\"",
-      "carne": "{id: 1, tipo: Maminha}",
-      "pao": "{id: 1, tipo: Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    },
-    {
-      "id": "ade6",
-      "nome": "\"Teste\"",
-      "carne": "{id: 1, tipo: Maminha}",
-      "pao": "{id: 1, tipo: Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    },
-    {
-      "id": "93ad",
+      "id": "28e2",
       "nome": "Usuario_Teste",
       "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
-        "id": 1,
-        "tipo": "Italiano Branco"
-      },
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "eac3",
-      "nome": "a",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
         "id": 2,
-        "tipo": "3 Queijos"
-      },
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "aadc",
-      "nome": "Usuario_Teste",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
+        "tipo": "Alcatra"
       },
       "pao": {
         "id": 1,
@@ -153,15 +96,15 @@
       "status": "Solicitado"
     },
     {
-      "id": "9f25",
+      "id": "0032",
       "nome": "Usuario_Teste",
       "carne": {
         "id": 1,
         "tipo": "Maminha"
       },
       "pao": {
-        "id": 1,
-        "tipo": "Italiano Branco"
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
       },
       "opcionais": [
         "Bacon",
@@ -170,8 +113,8 @@
       "status": "Solicitado"
     },
     {
-      "id": "f438",
-      "nome": "Usuario_Teste",
+      "id": "5a28",
+      "nome": "ruy",
       "carne": {
         "id": 1,
         "tipo": "Maminha"
@@ -182,24 +125,7 @@
       },
       "opcionais": [
         "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "bb2a",
-      "nome": "Usuario_Teste",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
-        "id": 1,
-        "tipo": "Italiano Branco"
-      },
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
+        "Salame"
       ],
       "status": "Solicitado"
     }
