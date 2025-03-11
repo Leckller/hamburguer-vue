@@ -1,3 +1,5 @@
 robotframework
-robotframework-tidy
 robotframework-browser
+robotframework-requests
+robotframework-tidy
+robotframework-seleniumlibrary
