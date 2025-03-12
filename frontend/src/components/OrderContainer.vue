@@ -15,7 +15,7 @@
         </div>
         <div>
             <ul>
-                <li v-for="opcao in opcionais" :data-testid="'opcional-'+opcional+'-'+id" :key="opcao.id">{{opcao}}</li>
+                <li v-for="opcao in opcionais" :data-testid="'opcional-'+opcao+'-'+id" :key="opcao.id">{{opcao}}</li>
             </ul>
         </div>
         <form>
