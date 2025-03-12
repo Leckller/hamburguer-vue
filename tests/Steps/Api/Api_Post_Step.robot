@@ -4,8 +4,6 @@ Resource    ../Resource/Settings.resource
 
 *** Keywords ***
 Adiciona um status
-    [Arguments]    ${tipo}
-
     &{headers}    Create Dictionary    Content-type=application/json
 
     &{body}    Create Dictionary
@@ -21,8 +19,6 @@ Adiciona um status
     Should Be Equal As Numbers    ${response.status_code}    201
 
 Adiciona um pedido
-    [Arguments]    ${nome}    ${carne}    ${pao}    ${opcionais}    ${status}
-
     &{headers}    Create Dictionary    Content-type=application/json
 
     &{body}    Create Dictionary
