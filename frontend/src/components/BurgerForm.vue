@@ -11,14 +11,14 @@
                 <label class="title" for="pao">Escolha o pão:</label>
                 <select v-model="pao" value="" name="pao" id="pao">
                     <option value="">Selecione o seu pão:</option>
-                    <option :value="pao.id" v-for="pao in paes" :data-testid="'pao-'+pao.id" :key="pao.id">{{ pao.tipo }}</option>
+                    <option :value="pao" v-for="pao in paes" :data-testid="'pao-'+pao.id" :key="pao.id">{{ pao.tipo }}</option>
                 </select>
             </div>
             <div>
                 <label class="title" for="carne">Escolha a carne:</label>
                 <select v-model="carne" name="carne" id="carne">
                     <option value="">Selecione a sua carne:</option>
-                    <option :value="carne.id" :data-testid="'carne-'+carne.id" v-for="carne in carnes" :key="carne.id">{{ carne.tipo }}</option>
+                    <option :value="carne" :data-testid="'carne-'+carne.id" v-for="carne in carnes" :key="carne.id">{{ carne.tipo }}</option>
                 </select>
             </div>
             <div>

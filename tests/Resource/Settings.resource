@@ -1,6 +1,7 @@
 *** Settings ***
 Library     RequestsLibrary
 Library     SeleniumLibrary
+Resource    Api_Paths.resource
 Resource    UI_Home_Elements.resource
 Resource    UI_Orders_Elements.resource
 Resource    ../Steps/UI_Home_Step.robot

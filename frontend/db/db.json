@@ -77,57 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "id": "28e2",
-      "nome": "Usuario_Teste",
-      "carne": {
-        "id": 2,
-        "tipo": "Alcatra"
-      },
-      "pao": {
-        "id": 1,
-        "tipo": "Italiano Branco"
-      },
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "0032",
-      "nome": "Usuario_Teste",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
-        "id": 3,
-        "tipo": "Parmesão e Orégano"
-      },
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "5a28",
-      "nome": "ruy",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
-        "id": 1,
-        "tipo": "Italiano Branco"
-      },
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    }
-  ]
+  "burgers": []
 }
