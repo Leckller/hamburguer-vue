@@ -77,30 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "id": "b039",
-      "nome": "\"Teste\"",
-      "carne": "{\"id\": 1, \"tipo\": Maminha}",
-      "pao": "{\"id\": 1, \"tipo\": Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    },
-    {
-      "id": "6251",
-      "nome": "\"Teste\"",
-      "carne": "{id: 1, tipo: Maminha}",
-      "pao": "{id: 1, tipo: Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    },
-    {
-      "id": "ade6",
-      "nome": "\"Teste\"",
-      "carne": "{id: 1, tipo: Maminha}",
-      "pao": "{id: 1, tipo: Italiano Branco}",
-      "opcionais": "[]",
-      "status": "\"Solicitado\""
-    }
-  ]
+  "burgers": []
 }
