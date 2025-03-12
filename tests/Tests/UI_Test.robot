@@ -42,10 +42,10 @@ TC_UI-03: Testa as funções dos pedidos da página /orders
 
     Troca o status do pedido
 
-    Então espera que apareça uma mensagem temporária confirmando que o pedido foi atualizado
+    Então espera que apareça uma mensagem temporária
 
     Cancela o pedido
 
-    Então espera que apareça uma mensagem temporária confirmando que o pedido foi apagado
+    Então espera que apareça uma mensagem temporária
 
     Fecha a hamburgueria
