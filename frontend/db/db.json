@@ -77,23 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "id": "4749",
-      "nome": "Gusttavo Ruy Nascimento Ferreira",
-      "carne": {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      "pao": {
-        "id": 2,
-        "tipo": "3 Queijos"
-      },
-      "opcionais": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Solicitado"
-    }
-  ]
+  "burgers": []
 }
